@@ -3,7 +3,7 @@ import NavBarComponent from './components/NavBarComponent/NavBarComponent';
 import ButtonComponent from './components/ButtonComponent/ButtonComponent';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import ItemListContainer from './components/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer';
 
 
 const App = () => {
@@ -24,15 +24,15 @@ const App = () => {
 
       <NavBarComponent />
       <ButtonComponent />
+      <ItemListContainer greeting="Bienvenid@s" />
 
-    <div>
-      <h1>Contador</h1>
-      <h2>{count}</h2>
-      <ButtonComponent label="Incrementar" bsButtonType="primary" onClicFunction={incrementar} />
-      <ButtonComponent label="Incrementar" bsButtonType="secondary" onClicFunction={decrementar} />
-
-    </div>
-  </div>
+      <div>
+        <h1>Contador</h1>
+        <h2>{count}</h2>
+        <ButtonComponent label="Incrementar" bsButtonType="primary" onClicFunction={incrementar} />
+        <ButtonComponent label="Incrementar" bsButtonType="secondary" onClicFunction={decrementar} />
+      </div>
+      </div>
   )
 }
 

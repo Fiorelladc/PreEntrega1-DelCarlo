@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import ItemListContainer from '../ItemListContainer';
 
 
 
@@ -29,6 +30,7 @@ const NavBarComponent = () => {
                         </NavDropdown>
                     </Nav>
                     <CardWidgetComponent/>
+                    <ItemListContainer greeting="Bienvenid@s" />
                     
                 </Navbar.Collapse>
             </Container>
