@@ -1,8 +1,10 @@
+import CardWidgetComponent from '../CardWidgetComponent/CardWidgetComponent';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import CardWidgetComponent from '../CardWidgetComponent/CardWidgetComponent';
+
+
 
 const NavBarComponent = () => {
     return (
@@ -27,6 +29,7 @@ const NavBarComponent = () => {
                         </NavDropdown>
                     </Nav>
                     <CardWidgetComponent/>
+                    
                 </Navbar.Collapse>
             </Container>
         </Navbar>
