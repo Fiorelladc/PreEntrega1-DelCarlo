@@ -1,0 +1,40 @@
+
+[
+    {
+        "id": "BotasFucsia",
+        "title": "Botas Barbie",
+        "description": "Botas de caña baja, con taco standar y cierre al costado. ",
+        "imagen": "src/assets/activos/img/BotasFucsia.jpeg"        
+    },
+    {
+        "id": "ZapatillasBasicasNegras",
+        "title": "Zapatillas Ana",
+        "description": "Zapatillas básicas para todos los días.",
+        "imagen": "src/assets/activos/img/ZapatillasBasicasNegras.jpeg"   
+    },
+    {
+        "id": "SandaliasNudoGrisOs",
+        "title": "Sandalias Megan",
+        "description": "Sandalias con cruce, con taco alto y altura en talón para un mejor sostén.",
+        "imagen": "src/assets/activos/img/SandaliasNudoGrisOs.jpeg"    
+    },
+    {
+        "id": "BotasTexturaBeige",
+        "title": "Botas Texanas",
+        "description": "Botas texanas de caña baja y textura combinadas con cuero",
+        "imagen": "src/assets/activos/img/BotasTexturaBeige.jpeg"   
+    },
+    {
+        "id": "ZapatillasPlataformaAqua",
+        "title": "Zapatillas Sol",
+        "description": "Zapatillas con plataforma.",
+        "imagen": "src/assets/activos/img/ZapatillasPlataformaAqua.jpeg"  
+    },
+    {
+        "id": "SandaliasElena",
+        "title": "Sandalias Elena",
+        "description": "Sandalias bajas, con poco taco y buen sostén para su uso diario.",
+        "imagen": "src/assets/activos/img/SandaliasElena.jpeg"
+    }
+    ]
+
