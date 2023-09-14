@@ -24,5 +24,4 @@ console.log (data)
         <ItemListContainer products={data} />
     )
 }
-
 export default Home; 
