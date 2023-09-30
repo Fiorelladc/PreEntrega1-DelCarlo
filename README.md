@@ -2,7 +2,7 @@
 
 Descripción:
 
-* TUS LES PEPE'S es un emprendimiento familiar en el cual se vende variedad de calzado y acesorios mediante pedido.
+* TUS LES PEPE'S es un emprendimiento familiar en el cual se vende variedad de calzado y accesorios mediante pedido.
 
 Características principales:
 
