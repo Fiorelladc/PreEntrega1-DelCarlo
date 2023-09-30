@@ -1,11 +1,10 @@
 import React from "react";
-import styles from "../App.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const MainLayout = ({ children }) => {
     return (
-        <div className={styles.appContainer}>
+        <div>
             <main>{children}</main>
         </div>
     );

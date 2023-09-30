@@ -7,9 +7,10 @@ import CartWidget from "../CartWidget/CartWidget";
 import { Link , NavLink } from "react-router-dom";
 import Image from 'react-bootstrap/Image';
 import Logo from '../../assets/activos/img/Logo.png';
-import CarritoDeCompras from '../../assets/activos/img/CarritoDeCompras.gif';
+
 
 const NavBar = () => {
+
     return (
         <Navbar  expand="lg" className="nav-style">
             {/*<Container className="nav-style">*/}
@@ -27,7 +28,7 @@ const NavBar = () => {
                     </NavDropdown>
                     <Nav.Link href="https://www.instagram.com/tus.lespepes/" target="_blank">Instagram</Nav.Link>
                 </Nav>
-                <CartWidget />
+                <CartWidget/>
             </Navbar.Collapse>
         {/*</Container>*/}
         </Navbar>

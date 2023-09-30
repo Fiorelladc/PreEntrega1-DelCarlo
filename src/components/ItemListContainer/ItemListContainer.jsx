@@ -5,13 +5,12 @@ import { useNavigate } from "react-router-dom";
 
 const ItemListContainer = ({ products}) => {
 const navigate = useNavigate();
-
     return (
     <div className='card-container'>
         {products.map((product) => {
             return (
                     <Card style={{width:"16rem"}} key={product.id}>
-                        <Card.Img variant="top" src={product.imagen} />
+                        <Card.Img variant="top" src={product.image} />
                         <Card.Body>
                             <Card.Title>{product.title}</Card.Title>
                             <Card.Text>

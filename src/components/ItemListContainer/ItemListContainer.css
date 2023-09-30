@@ -1,11 +1,12 @@
 
+
 .card-container {
     background-image: url(../../assets/activos/img/FloresUno.png);
     width: 100%;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     align-content: space-around;
+    justify-content: space-evenly;
     row-gap: auto;
 }

@@ -1,18 +1,18 @@
-import React from 'react'
 import { useParams } from 'react-router-dom';
-import { getData } from '../helpers/getData';
+import { useCollection } from '../Hooks/UseCollection';
 import ItemListContainer from '../components/ItemListContainer/ItemListContainer';
+import LoaderComponent from '../components/LoaderComponent/LoaderComponent';
+
 
 const Category = () => {
+    const {categoryId} = useParams();
+    const {data, loading}= useCollection("products", categoryId)
 
-    const { categoryId } = useParams();
-    const data=getData(categoryId)
 
-    return (
-        <div>
-            <ItemListContainer products={data}/>
-        </div>
+    return loading ? ( <LoaderComponent />
+    ) : (
+        <ItemListContainer products={data} />
     )
 }
 
-export default Category
+export default Category;
